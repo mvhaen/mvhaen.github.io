@@ -44,10 +44,12 @@ h3 {
     margin: 0;
     width: 100%;
     border-bottom: 0;
+    border-radius: 3px;
 
     border: none;
     height: 16px;
     background: linear-gradient(to bottom, $purple, $orange, $yellow);  
+    
   }
 
   h1 {
@@ -107,6 +109,7 @@ h3 {
 .blog-post-list {
   &--header {
     h2 {
+      margin-top: 0;
       display: inline-block;
     }
 
