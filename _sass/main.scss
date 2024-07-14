@@ -156,9 +156,10 @@ h3 {
 a {
   color: $dark-orange;
   text-decoration: none;
-
+  
   &:hover {
     text-decoration: underline;
+    cursor: pointer;
   }
 
   &:visited {
