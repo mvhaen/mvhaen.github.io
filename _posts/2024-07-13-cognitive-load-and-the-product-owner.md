@@ -9,7 +9,9 @@ carousels:
       url: /assets/images/2024-07-13-cognitive-load-and-the-product-owner/type1.png
   - images: 
     - image: /assets/images/2024-07-13-cognitive-load-and-the-product-owner/type3.png
+      url: /assets/images/2024-07-13-cognitive-load-and-the-product-owner/type3.png
     - image: /assets/images/2024-07-13-cognitive-load-and-the-product-owner/team-of-teams.jpg
+      url: /assets/images/2024-07-13-cognitive-load-and-the-product-owner/team-of-teams.jpg
 ---
 A recent publication by [Jürgen De Smet and Viktor Grgic on Cognitive load][1] and the recent [Org Topologies][2] course I followed, got me reflecting on my role as a Product Owner/Product Manager. We often focus on the cognitive load of development teams, but it’s crucial to consider our own too. As Product Owners, we handle a lot—from talking to stakeholders and prioritising backlogs to keeping the team aligned with the product vision. We too should be managing our cognitive load better, in order to support our teams more effectively and make the whole product development process smoother.
 
