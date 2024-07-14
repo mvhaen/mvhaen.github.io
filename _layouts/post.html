@@ -1,0 +1,8 @@
+---
+layout: page
+---
+<div class="blog-post">
+  <h2>{{ page.title }}</h2>
+  <p class="blog-post--details">{{ page.date | date_to_string }} - {{ page.author }}</p>
+  {{ content }}
+</div>
