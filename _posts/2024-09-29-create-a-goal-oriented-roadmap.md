@@ -1,10 +1,20 @@
 ---
 layout: post
 author: Michael Voorhaen
+carousels:
+  - images: 
+    - image: /assets/images/2024-09-29-create-a-goal-oriented-roadmap/1.png
+      url: /assets/images/2024-09-29-create-a-goal-oriented-roadmap/1.png
+  - images: 
+    - image: /assets/images/2024-09-29-create-a-goal-oriented-roadmap/2.png
+      url: /assets/images/2024-09-29-create-a-goal-oriented-roadmap/2.png
+  - images: 
+    - image: /assets/images/2024-09-29-create-a-goal-oriented-roadmap/3.png
+      url: /assets/images/2024-09-29-create-a-goal-oriented-roadmap/3.png
 ---
 If you’ve ever struggled to create a roadmap that actually drives meaningful progress, you’re not alone. At Strobbo, I faced the same challenge. I spent a long time searching for the right format, experimenting with different approaches. My journey took me from a cumbersome version that looked more like a project Gantt chart to another where we focused on several strategic goals and the work we planned to tackle. But none of these approaches ever felt quite right.
 
-![](/assets/images/2024-09-29-create-a-goal-oriented-roadmap/1.png)
+{% include carousel.html number="1" %}
 
 The main issues were consistent: too much emphasis on timings, vague descriptions of what we’d actually deliver, and the constant struggle of having more strategic goals than we had teams to handle them. This led to juggling multiple things at once or constantly balancing between them, and since these long-term goals never seemed to wrap up, it rarely felt like we were winning.
 
@@ -62,11 +72,11 @@ Visuals are essential for quickly communicating the status of each goal and keep
 
 Here is how we are currently visualizing our goals. At the top you can see the title, how it helps us achieve our long-term goals or strategy or which business goals it is linked to. We also number our goals at the top left to highlight the priority. We have been doing this since the start of the year and most likely we will just reset the numbering at the start of next year. 
 
-![](/assets/images/2024-09-29-create-a-goal-oriented-roadmap/2.png)
+{% include carousel.html number="2" %}
 
 Finally at the bottom we do tie into specific features that we think can help us reach our goal, technical debt that can be cleaned up, bugs that we are thinking of fixing. And as time progresses we start adding details like metrics we want to or are measuring, we cross out features which we decided not to pick up within the goal, etc.  We also use a colour code to indicate the status of the goal.
 
-![](/assets/images/2024-09-29-create-a-goal-oriented-roadmap/3.png)
+{% include carousel.html number="3" %}
  
 #### Consistent Messaging with Visuals
 
