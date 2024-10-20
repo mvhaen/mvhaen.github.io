@@ -3,8 +3,8 @@ layout: post
 author: Michael Voorhaen
 carousels:
   - images: 
-    - image: /assets/images/2024-09-29-create-a-goal-oriented-roadmap/1.png
-      url: /assets/images/2024-09-29-create-a-goal-oriented-roadmap/1.png
+    - image: /assets/images/2024-10-20-bet-on-your-roadmap/1.png
+      url: /assets/images/2024-10-20-bet-on-your-roadmap/1.png
 ---
 
 Estimating large, future roadmap items can feel like trying to predict the weather next month—there's just so much uncertainty. The bigger the item, the harder it is to figure out how much effort it will take. And when the item itself is still pretty fuzzy—maybe the scope isn’t fully defined—estimating becomes even trickier. What’s more, estimates usually come from the development team, which can make the conversation feel one-sided and, let’s be honest, sometimes uncomfortable.
