@@ -7,6 +7,8 @@ carousels:
       url: /assets/images/2024-09-29-create-a-goal-oriented-roadmap/1.png
 ---
 
+Estimating large, future roadmap items can feel like trying to predict the weather next month—there's just so much uncertainty. The bigger the item, the harder it is to figure out how much effort it will take. And when the item itself is still pretty fuzzy—maybe the scope isn’t fully defined—estimating becomes even trickier. What’s more, estimates usually come from the development team, which can make the conversation feel one-sided and, let’s be honest, sometimes uncomfortable.
+
 {% include carousel.html number="1" %}
 
 But what if we flipped the script? That’s where "Betting on Your Roadmap" comes in. Instead of just estimating the size of a task, this approach lets you, as the Product Owner, place a "bet" on how much you’re willing to invest in a feature. It’s not just about size; it’s about cost. This approach restores the Product Owner’s role in setting priorities and constraints while also sparking fresh, collaborative discussions with the team. When you place a bet, you’re saying, "Here’s what I’m willinzg to spend—what can we build with that?" This not only shifts the dynamic but also ensures you’re taking responsibility for investment decisions in a way that engages the whole team.
