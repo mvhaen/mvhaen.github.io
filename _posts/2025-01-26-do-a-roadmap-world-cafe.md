@@ -1,9 +1,13 @@
 ---
 layout: post
 title: "Do a Roadmap World Café"
-images:
-    - /assets/images/2024-03-26-do-a-roadmap-world-cafe/1.webp
-    - /assets/images/2024-03-26-do-a-roadmap-world-cafe/2.webp
+author: "Michael Voorhaen"
+carousels:
+  - images:
+    - image: /assets/images/2024-03-26-do-a-roadmap-world-cafe/1.webp
+      url: /assets/images/2024-03-26-do-a-roadmap-world-cafe/1.webp
+    - image: /assets/images/2024-03-26-do-a-roadmap-world-cafe/2.webp
+      url: /assets/images/2024-03-26-do-a-roadmap-world-cafe/2.webp
 ---
 
 Welcome back to my series on actionable experiments you can try as a Product Owner to boost your dev team's productivity, alignment, and innovation. Each post offers practical strategies to rethink how your team handles their workload and priorities.
