@@ -4,7 +4,7 @@ title: "Do a Roadmap World Café"
 author: "Michael Voorhaen"
 carousels:
   - images:
-    - image: /assets/images/22025-01-26-do-a-roadmap-world-cafe/1.webp
+    - image: /assets/images/2025-01-26-do-a-roadmap-world-cafe/1.webp
       url: /assets/images/2025-01-26-do-a-roadmap-world-cafe/1.webp
   - images: 
     - image: /assets/images/2025-01-26-do-a-roadmap-world-cafe/2.webp
