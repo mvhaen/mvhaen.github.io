@@ -4,10 +4,11 @@ title: "Do a Roadmap World Café"
 author: "Michael Voorhaen"
 carousels:
   - images:
-    - image: /assets/images/2024-03-26-do-a-roadmap-world-cafe/1.webp
-      url: /assets/images/2024-03-26-do-a-roadmap-world-cafe/1.webp
-    - image: /assets/images/2024-03-26-do-a-roadmap-world-cafe/2.webp
-      url: /assets/images/2024-03-26-do-a-roadmap-world-cafe/2.webp
+    - image: /assets/images/22025-01-26-do-a-roadmap-world-cafe/1.webp
+      url: /assets/images/2025-01-26-do-a-roadmap-world-cafe/1.webp
+  - images: 
+    - image: /assets/images/2025-01-26-do-a-roadmap-world-cafe/2.webp
+      url: /assets/images/2025-01-26-do-a-roadmap-world-cafe/2.webp
 ---
 
 Welcome back to my series on actionable experiments you can try as a Product Owner to boost your dev team's productivity, alignment, and innovation. Each post offers practical strategies to rethink how your team handles their workload and priorities.
@@ -70,6 +71,7 @@ At the end of the session, I leave some time for people to revisit each poster a
 - **Experiment with Poster Hosts**: Consider leaving one or two people at each poster from the previous session to maintain continuity, though this means some participants might not see everything.
 - **Plan for a Closing Discussion**: Set aside time at the end to address any important open questions and to synthesize insights.
 - **Encourage Visual Note-Taking**: Have participants write, doodle, or draw directly on posters to make the session more engaging and capture ideas visually.
+
 ### Gathering Feedback: The Perfection Game
 
 {% include carousel.html number="2" %}
@@ -87,6 +89,7 @@ Ready to try it out? Here's a quick guide:
 6. **Wrap Up and Gather Feedback**: Plan a closing discussion to resolve any open questions. Then, use the Perfection Game to gather feedback and refine future sessions.
 
 Getting started with a World Café session doesn't have to take a lot of time. With just 2 to 3 hours of prep, you can be well on your way, especially if you're focusing on your dev team.
+
 ### Conclusion
 
 Running a World Café session brings together more diverse perspectives than a typical presentation, fostering deeper insights and shared ownership of the product roadmap or backlog. This approach not only enhances transparency but also creates a collaborative environment where everyone feels invested in the product's direction. By involving different voices in the discussion, you build a stronger, more unified team, aligned around a collective vision. Give it a try—you might find it's the key to unlocking greater engagement and innovation within your team.
