@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Do a Roadmap World Café"
-date: 2024-03-26
 images:
     - /assets/images/2024-03-26-do-a-roadmap-world-cafe/1.webp
     - /assets/images/2024-03-26-do-a-roadmap-world-cafe/2.webp
