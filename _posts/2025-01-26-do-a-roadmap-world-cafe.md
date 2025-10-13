@@ -6,9 +6,11 @@ carousels:
   - images:
     - image: /assets/images/2025-01-26-do-a-roadmap-world-cafe/1.webp
       url: /assets/images/2025-01-26-do-a-roadmap-world-cafe/1.webp
+      position: center
   - images: 
     - image: /assets/images/2025-01-26-do-a-roadmap-world-cafe/2.webp
       url: /assets/images/2025-01-26-do-a-roadmap-world-cafe/2.webp
+      position: top
 ---
 
 Welcome back to my series on actionable experiments you can try as a Product Owner to boost your dev team's productivity, alignment, and innovation. Each post offers practical strategies to rethink how your team handles their workload and priorities.

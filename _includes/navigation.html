@@ -1,11 +1,16 @@
-<div class="navigation">
-<a href="/"><img class="logo" src="/assets/images/rooster-logo.png"><h1>Rooster</h1></a>
-<nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link || page.url == '' %}class="selected"{% endif %}>
-      {{ item.name }}
+<div class="navigation-container">
+  <div class="navigation">
+    <a href="/" class="logo-title">
+      <img src="/assets/images/rooster-logo.png" alt="Rooster logo">
+      <h1>Rooster</h1>
     </a>
-  {% endfor %}
-</nav>
-<hr>
+    <nav>
+      {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link || page.url == '' %}class="selected"{% endif %}>
+          {{ item.name }}
+        </a>
+      {% endfor %}
+    </nav>
+    <hr>
+  </div>
 </div>
