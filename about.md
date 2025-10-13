@@ -23,3 +23,5 @@ Outside of work, I find balance through meditation and yoga, practices that enha
 I invite you to connect with me to explore how we can drive forward impactful and innovative technology solutions together.
 
 Feel free to reach out and let's make a difference in the tech world!
+
+[Get in touch with me](/contact.html) to start a conversation about product management, Agile methodologies, or any collaboration opportunities.
