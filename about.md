@@ -2,9 +2,14 @@
 layout: page
 title: "About"
 ---
-## About Me
 
-Hello! I'm Michael Voorhaen, a technology enthusiast with a deep passion for software development, product management, and Agile methodologies. I thrive on the challenge of creating innovative solutions that solve real-world problems and enhance people's lives. My mission is to share my knowledge and experiences to inspire others and contribute to the tech community.
+<div class="about-intro">
+  <h2>About Me</h2>
+  <div class="about-content">
+    <img src="https://gravatar.com/userimage/9905400/c29cec83397136ef2dd1884fe2b539e0.jpeg?v=1743230609000&size=2048" alt="Michael Voorhaen" class="profile-image">
+    <p>Hello! I'm Michael Voorhaen, a technology enthusiast with a deep passion for software development, product management, and Agile methodologies. I thrive on the challenge of creating innovative solutions that solve real-world problems and enhance people's lives. My mission is to share my knowledge and experiences to inspire others and contribute to the tech community.</p>
+  </div>
+</div>
 
 ### Professional Background
 
@@ -12,7 +17,7 @@ Currently, I am a Product Manager at Protime, overseeing everything related to o
 
 ### Agile and Leadership Expertise
 
-My technical journey is enriched by strong leadership in Agile and Scrum methodologies. I hold certifications as a Professional Scrum Product Owner, Scrum Facilitator, and LeSS (Large-Scale Scrum) practitioner. Additionally, I am certified in Designing Agile Organizations and am an Org Topologies Champion, skills I use to reshape and guide organizational structures towards agility and efficiency.
+My technical journey is enriched by strong leadership in Agile and Scrum methodologies. I hold certifications as a Professional Scrum Product Owner, Scrum Facilitator, and [LeSS (Large-Scale Scrum)](https://less.works/) practitioner. Additionally, I am certified in [Designing Agile Organizations](https://creatingagileorganizations.com/) and am an [Org Topologies](https://orgtopologies.com/) Champion, skills I use to reshape and guide organizational structures towards agility and efficiency.
 
 ### Personal Interests
 
