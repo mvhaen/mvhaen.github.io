@@ -23,7 +23,7 @@ I'd love to hear from you! Whether you have questions about product management, 
 
 - Product management discussions
 - Agile and Scrum methodologies
-- Organizational design and team topologies
+- Organizational design
 - Software development insights
 - Speaking opportunities
 - Collaboration on innovative projects
