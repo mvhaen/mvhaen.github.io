@@ -52,9 +52,10 @@ h3 {
     text-decoration: none;
 
     img {
-      width: 45px;
+      width: 50px;
+      height: 50px;
       margin-right: 12px;
-      margin-bottom: 4px; /* Align logo with text baseline */
+      margin-bottom: 8px;
     }
 
     h1 {
@@ -288,7 +289,7 @@ h3 {
   h2 {
     margin-top: 0;
     margin-bottom: 0;
-    paddding-bottom: 0;
+    padding-bottom: 0;
     font-size: 28px;
     font-weight: 500;
     color: #333;
