@@ -3,12 +3,11 @@ layout: page
 title: "About"
 ---
 
+## About Me
+
 <div class="about-intro">
-  <h2>About Me</h2>
-  <div class="about-content">
-    <img src="https://gravatar.com/userimage/9905400/c29cec83397136ef2dd1884fe2b539e0.jpeg?v=1743230609000&size=2048" alt="Michael Voorhaen" class="profile-image">
-    <p>Hello! I'm Michael Voorhaen, a technology enthusiast with a deep passion for software development, product management, and Agile methodologies. I thrive on the challenge of creating innovative solutions that solve real-world problems and enhance people's lives. My mission is to share my knowledge and experiences to inspire others and contribute to the tech community.</p>
-  </div>
+  <img src="https://gravatar.com/userimage/9905400/c29cec83397136ef2dd1884fe2b539e0.jpeg?v=1743230609000&size=2048" alt="Michael Voorhaen" class="profile-image">
+  <p class="about-text">Hello! I'm Michael Voorhaen, a technology enthusiast with a deep passion for software development, product management, and Agile methodologies. I thrive on the challenge of creating innovative solutions that solve real-world problems and enhance people's lives. My mission is to share my knowledge and experiences to inspire others and contribute to the tech community.</p>
 </div>
 
 ### Professional Background

@@ -444,24 +444,10 @@ a {
 
 /* About page profile styling */
 .about-intro {
-  margin: 24px 0 32px 0;
-  padding: 20px;
-  background: rgba(139, 42, 155, 0.03);
-  border-radius: 8px;
-  border: 1px solid rgba(139, 42, 155, 0.08);
-  
-  h2 {
-    margin: 0 0 0 0;
-    font-size: 28px;
-    font-weight: 500;
-    color: #333;
-  }
-  
-  .about-content {
-    display: flex;
-    align-items: flex-start;
-    gap: 24px;
-  }
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin: 12px 0 16px 0;
   
   .profile-image {
     width: 120px;
@@ -471,7 +457,7 @@ a {
     border-radius: 4px;
   }
   
-  p {
+  .about-text {
     margin: 0;
     font-size: 16px;
     line-height: 1.6;
