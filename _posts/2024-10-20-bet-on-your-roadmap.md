@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Michael Voorhaen
+series: "Roadmap Mastery"
 carousels:
   - images: 
     - image: /assets/images/2024-10-20-bet-on-your-roadmap/1.png

@@ -1,5 +1,7 @@
 - name: Blog
   link: /
+- name: Series
+  link: /series.html
 - name: About
   link: /about.html
 - name: Contact

@@ -3,11 +3,20 @@ layout: page
 ---
 <div class="blog-post">
   <div class="blog-post--header">
-    <h2>{{ page.title }}</h2>
+    <div class="blog-post--title-section">
+      <h2>{{ page.title }}</h2>
+    </div>
     <div class="blog-post--details">
       <span class="author">{{ page.author }}</span>
       <span class="date">{{ page.date | date_to_string }}</span>
     </div>
   </div>
+  
+  {% if page.series %}
+    <div class="series-navigation">
+      <p>This article is part of the <strong>{{ page.series }}</strong> series. <a href="/series/{{ page.series | downcase | replace: ' ', '-' }}.html">View all articles in this series →</a></p>
+    </div>
+  {% endif %}
+  
   {{ content }}
 </div>

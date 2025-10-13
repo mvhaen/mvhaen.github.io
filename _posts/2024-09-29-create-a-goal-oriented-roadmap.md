@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Michael Voorhaen
+series: "Roadmap Mastery"
 carousels:
   - images: 
     - image: /assets/images/2024-09-29-create-a-goal-oriented-roadmap/1.png

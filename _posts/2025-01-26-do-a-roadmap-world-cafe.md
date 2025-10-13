@@ -2,6 +2,7 @@
 layout: post
 title: "Do a Roadmap World Café"
 author: "Michael Voorhaen"
+series: "Roadmap Mastery"
 carousels:
   - images:
     - image: /assets/images/2025-01-26-do-a-roadmap-world-cafe/1.webp
