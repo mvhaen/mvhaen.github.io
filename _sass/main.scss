@@ -553,6 +553,49 @@ a {
   }
 }
 
+/* Series next article styling */
+.series-next {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 2px solid #f0f0f0;
+  
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #8B2A9B;
+    margin-bottom: 16px;
+  }
+  
+  &--content {
+    background: rgba(139, 42, 155, 0.03);
+    border: 1px solid rgba(139, 42, 155, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    
+    h4 {
+      margin: 0 0 12px 0;
+      font-size: 18px;
+      font-weight: 600;
+      
+      a {
+        color: #8B2A9B;
+        text-decoration: none;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    
+    p {
+      margin: 0;
+      color: #555;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+  }
+}
+
 /* Series index page styling */
 .series-index {
   h1 {
