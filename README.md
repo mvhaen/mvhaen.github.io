@@ -134,7 +134,9 @@ bundle exec jekyll serve --port 4001
    ---
    layout: post
    title: "Your Post Title"
+   author: "Michael Voorhaen"
    date: YYYY-MM-DD
+   draft: false
    ---
    ```
 
@@ -146,7 +148,9 @@ bundle exec jekyll serve --port 4001
 ---
 layout: post
 title: "My New Blog Post"
+author: "Michael Voorhaen"
 date: 2025-01-26
+draft: false
 ---
 
 This is the first paragraph of my blog post.
@@ -155,6 +159,48 @@ This is the first paragraph of my blog post.
 
 More content here...
 ```
+
+### Working with Drafts
+
+Jekyll has built-in support for drafts. To create a draft article:
+
+1. **Create a draft file** in the `_drafts/` folder (no date prefix needed):
+   ```
+   _drafts/my-draft-article.md
+   ```
+
+2. **Add front matter** (no `draft:` flag needed):
+   ```yaml
+   ---
+   layout: post
+   title: "Work in Progress Article"
+   author: "Michael Voorhaen"
+   ---
+   ```
+
+3. **Preview drafts locally** by running Jekyll with the `--drafts` flag:
+   ```bash
+   bundle exec jekyll serve --drafts
+   ```
+
+4. **Drafts won't appear** when running without `--drafts` or on GitHub Pages (production)
+
+5. **To publish a draft:**
+   - Move it from `_drafts/` to `_posts/`
+   - Add the date prefix to the filename: `YYYY-MM-DD-title.md`
+   - Add a `date:` field to the front matter
+   - Commit and push
+
+**Example:**
+```bash
+# Move draft to posts
+mv _drafts/my-article.md _posts/2025-01-26-my-article.md
+
+# Edit the file to add date in front matter
+# Then commit and push
+```
+
+**Note:** This is Jekyll's official recommended approach for handling drafts. Drafts in the `_drafts/` folder are never published to GitHub Pages, even if you push them.
 
 ## Adding Images
 

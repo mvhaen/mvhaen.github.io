@@ -3,3 +3,7 @@ description: The personal blog of Michael Voorhaen
 plugins:
   - jekyll-feed
   - jekyll-timeago
+
+# Kramdown settings
+kramdown:
+  toc_levels: 1..3

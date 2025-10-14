@@ -5,6 +5,9 @@ layout: page
   <div class="blog-post--header">
     <div class="blog-post--title-section">
       <h2>{{ page.title }}</h2>
+      {% if page.draft %}
+        <span class="draft-badge">DRAFT</span>
+      {% endif %}
     </div>
     <div class="blog-post--details">
       <span class="author">{{ page.author }}</span>

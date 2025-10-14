@@ -30,12 +30,44 @@ h2 {
   font-size: 20px;
   margin-bottom: 5px;
   font-weight: 500;
+  scroll-margin-top: 150px; /* Offset for fixed header */
 }
 
 h3 {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 5px;
+  scroll-margin-top: 150px; /* Offset for fixed header */
+}
+
+h4 {
+  scroll-margin-top: 150px; /* Offset for fixed header */
+}
+
+blockquote {
+  margin: 12px 0;
+  padding: 5px 10px;
+  border-left: 4px solid $purple;
+  background: linear-gradient(to right, rgba(139, 42, 155, 0.05), transparent);
+  font-style: italic;
+  color: #555;
+  
+  p {
+    margin: 0;
+    margin-bottom: 0px !important;
+    line-height: 1.6;
+  }
+  
+  p + p {
+    margin-top: 12px;
+  }
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  height: 1px;
+  background-color: #ddd;
 }
 
 .navigation {
@@ -222,14 +254,33 @@ h3 {
 }
 
 .image-gallery-index {
-  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
   width: 100%;
+  margin: 12px 0;
   
   a {
     display: block;
-    margin: 12px 0;
     text-decoration: none !important;
-    width: 100%;
+    flex: 1;
+    min-width: 0;
+    
+    /* Single image: 100% width */
+    &:only-child {
+      flex: 1 1 100%;
+    }
+    
+    /* Two images: ~48% each (accounting for gap) */
+    &:nth-last-child(2):first-child,
+    &:nth-last-child(2):first-child + a {
+      flex: 1 1 calc(50% - 6px);
+    }
+    
+    /* Three or more images: wrap to multiple rows */
+    &:nth-child(n+4) {
+      flex: 1 1 calc(33.333% - 8px);
+    }
 
     img {
       width: 100%;
@@ -511,6 +562,24 @@ a {
   vertical-align: 4px !important;
   line-height: 1 !important;
   border: 1px solid #bee5eb !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
+}
+
+.draft-badge {
+  display: inline-block !important;
+  background: #fff3cd !important;
+  color: #856404 !important;
+  padding: 3px 12px !important;
+  margin: 0 8px !important;
+  border-radius: 8px !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  white-space: nowrap !important;
+  vertical-align: 4px !important;
+  line-height: 1 !important;
+  border: 1px solid #ffeaa7 !important;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
   text-decoration: none !important;
   
