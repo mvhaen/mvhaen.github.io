@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "2025 Global LeSS Conference Amsterdam: Insights and Reflections"
+title: "LeSS Conference 2025"
+subtitle: "Insights and Reflections from Amsterdam"
 author: "Michael Voorhaen"
 carousels:
   - images:

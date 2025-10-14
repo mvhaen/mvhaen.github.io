@@ -7,7 +7,7 @@ title: "Blog"
   <article class="blog-post-list--item">
     <div class="blog-post-list--header">
       <div class="blog-post-list--title-section">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2><a href="{{ post.url }}">{% if post.subtitle %}{{ post.title }}: {{ post.subtitle }}{% else %}{{ post.title }}{% endif %}</a>{% if post.path contains '_drafts' %}<span class="draft-badge">DRAFT</span>{% endif %}</h2>
         {% if post.series %}
           <a href="/series/{{ post.series | downcase | replace: ' ', '-' }}.html" class="series-badge">{{ post.series }}</a>
         {% endif %}

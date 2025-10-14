@@ -4,9 +4,14 @@ layout: page
 <div class="blog-post">
   <div class="blog-post--header">
     <div class="blog-post--title-section">
-      <h2>{{ page.title }}</h2>
-      {% if page.path contains '_drafts' %}
-        <span class="draft-badge">DRAFT</span>
+      <div class="blog-post--title-row">
+        <h2>{{ page.title }}</h2>
+        {% if page.path contains '_drafts' %}
+          <span class="draft-badge">DRAFT</span>
+        {% endif %}
+      </div>
+      {% if page.subtitle %}
+        <h3 class="blog-post--subtitle">{{ page.subtitle }}</h3>
       {% endif %}
     </div>
     <div class="blog-post--details">
