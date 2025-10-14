@@ -5,7 +5,7 @@ layout: page
   <div class="blog-post--header">
     <div class="blog-post--title-section">
       <h2>{{ page.title }}</h2>
-      {% if page.draft %}
+      {% if page.path contains '_drafts' %}
         <span class="draft-badge">DRAFT</span>
       {% endif %}
     </div>

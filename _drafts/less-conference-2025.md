@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeSS Conference 2025: Insights and Reflections"
+title: "2025 Global LeSS Conference Amsterdam: Insights and Reflections"
 author: "Michael Voorhaen"
 carousels:
   - images:
@@ -19,7 +19,7 @@ carousels:
       title: "Day 2 - Less Leadership Appeal"
 ---
 
-The [LeSS Conference 2025](https://less.works/conferenza/conferences/2025-global-less-conference-amsterdam-13/program_list) was really worth it. Meeting up with old friends, sharing experiences, inspiring presentations, and with the open space I had so much trouble choosing what to attend.
+The [2025 Global LeSS Conference Amsterdam](https://less.works/conferenza/conferences/2025-global-less-conference-amsterdam-13/program_list) was really worth it. Meeting up with old friends, sharing experiences, inspiring presentations, and with the open space I had so much trouble choosing what to attend.
 
 I've tried to capture some of my notes here.
 
@@ -31,6 +31,8 @@ I've tried to capture some of my notes here.
 ---
 
 ### Day 1 - Keynote by Alistair Cockburn: *It's still about the People even with AI*
+
+![How much is handled by AI?](/assets/images/2025-01-26-less-conference-2026/how-much-is-handled-by-AI.jpg)
 
 *Speaker: Alistair Cockburn*
 
@@ -45,6 +47,8 @@ I've tried to capture some of my notes here.
 ---
 
 ### Day 1 - My Talk: *The Strobbo Experiment: Elevating Katas on the Road to Business Agility*
+
+![My presentation - The Strobbo Experiment](/assets/images/2025-01-26-less-conference-2026/my-presentation.jpeg)
 
 [Your presentation notes will go here]
 
