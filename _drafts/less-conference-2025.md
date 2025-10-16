@@ -43,7 +43,11 @@ I've tried to capture some of my notes here.
 
 ### Day 1 - Roland and Ralph's Talk: *Doing a LeSS Flip in two months (A TURBO LeSS Adoption At Greenflux)*
 
-[Your notes from this session will go here]
+Some takeaways that stood out to me:
+
+- Learning-by-doing before formal LeSS training can work. Greenflux started with basic team training but didn’t explicitly “do LeSS” until months later. This resonates with my Selligent flip: that week was intense and practical, but much of it stayed surface-level. It was only years later, diving deeper for Strobbo, that concepts truly clicked. Repetition and spacing seem key to durable learning.
+- It wasn’t really a “turbo LeSS” so much as shifting the sequence in time. Some elements were delayed, the teams felt the pain of adoption, and still made their way through — a reminder that discomfort is normal when real change is happening.
+- TODO: Multi-learning matters. Encourage breadth and depth over time (pairing/rotations, communities of practice, whole‑product focus) so teams can adapt as structures evolve; this compounds learning across people and the product.
 
 ---
 
