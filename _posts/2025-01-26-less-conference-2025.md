@@ -3,6 +3,7 @@ layout: post
 title: "LeSS Conference 2025"
 subtitle: "Insights and Reflections from Amsterdam"
 author: "Michael Voorhaen"
+series: "Conference Notes"
 carousels:
   - images:
     - image: /assets/images/2025-01-26-less-conference-2025/open-space-day-2-part-1.jpg
