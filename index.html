@@ -9,7 +9,8 @@ title: "Blog"
       <div class="blog-post-list--title-section">
         <h2><a href="{{ post.url }}">{% if post.subtitle %}{{ post.title }}: {{ post.subtitle }}{% else %}{{ post.title }}{% endif %}</a>{% if post.path contains '_drafts' %}<span class="draft-badge">DRAFT</span>{% endif %}</h2>
         {% if post.series %}
-          <a href="/series/{{ post.series | downcase | replace: ' ', '-' }}.html" class="series-badge">{{ post.series }}</a>
+          {% assign series_data = site.data.series | where: "name", post.series | first %}
+          <a href="/series/{{ post.series | downcase | replace: ' ', '-' }}.html" class="series-badge" style="--series-bg-color: {{ series_data.color | default: '#2E7D32' | color_modify: 'alpha', 0.1 }}; --series-text-color: {{ series_data.color | default: '#2E7D32' }}; --series-border-color: {{ series_data.color | default: '#2E7D32' | color_modify: 'alpha', 0.3 }};">{{ post.series }}</a>
         {% endif %}
       </div>
       <span class="blog-post-list--date">{{ post.date | date_to_string }}</span>

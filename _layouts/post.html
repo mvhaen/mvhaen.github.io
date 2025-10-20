@@ -22,8 +22,9 @@ layout: page
   
   {% if page.series %}
     {% assign series_posts = site.posts | where: "series", page.series %}
+    {% assign series_data = site.data.series | where: "name", page.series | first %}
     {% if series_posts.size > 1 %}
-      <div class="series-navigation">
+      <div class="series-navigation" style="--series-color: {{ series_data.color | default: '#8B2A9B' }}; --series-nav-bg: {{ series_data.color | default: '#8B2A9B' | color_modify: 'alpha', 0.05 }};">
         <p>This article is part of the <strong>{{ page.series }}</strong> series. <a href="/series/{{ page.series | downcase | replace: ' ', '-' }}.html">View all articles in this series →</a></p>
       </div>
     {% endif %}
@@ -33,6 +34,7 @@ layout: page
   
   {% if page.series %}
     {% assign series_posts = site.posts | where: "series", page.series | sort: "date" %}
+    {% assign series_data = site.data.series | where: "name", page.series | first %}
     {% if series_posts.size > 1 %}
       {% assign current_index = 0 %}
       {% for post in series_posts %}
@@ -44,7 +46,7 @@ layout: page
       {% assign next_index = current_index | plus: 1 %}
       {% if next_index < series_posts.size %}
         {% assign next_post = series_posts[next_index] %}
-        <div class="series-next">
+        <div class="series-next" style="--series-color: {{ series_data.color | default: '#8B2A9B' }}; --series-next-bg: {{ series_data.color | default: '#8B2A9B' | color_modify: 'alpha', 0.03 }}; --series-next-border: {{ series_data.color | default: '#8B2A9B' | color_modify: 'alpha', 0.1 }};">
           <h3>Next in {{ page.series }}</h3>
           <div class="series-next--content">
             <h4><a href="{{ next_post.url }}">{{ next_post.title }}</a></h4>

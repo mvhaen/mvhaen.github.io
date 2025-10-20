@@ -1,6 +1,8 @@
 - name: "Roadmap Mastery"
   description: "A collection of articles exploring practical approaches to creating, managing, and executing product roadmaps that drive real business value."
   slug: "roadmap-mastery"
+  color: "#2E7D32"
 - name: "Conference Notes"
   description: "Insights, takeaways, and reflections from conferences, workshops, and industry events. Capturing the key learnings and practical applications from the agile and product management community."
   slug: "conference-notes"
+  color: "#1565C0"
