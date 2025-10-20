@@ -21,32 +21,37 @@ layout: page
   </div>
   
   {% if page.series %}
-    <div class="series-navigation">
-      <p>This article is part of the <strong>{{ page.series }}</strong> series. <a href="/series/{{ page.series | downcase | replace: ' ', '-' }}.html">View all articles in this series →</a></p>
-    </div>
+    {% assign series_posts = site.posts | where: "series", page.series %}
+    {% if series_posts.size > 1 %}
+      <div class="series-navigation">
+        <p>This article is part of the <strong>{{ page.series }}</strong> series. <a href="/series/{{ page.series | downcase | replace: ' ', '-' }}.html">View all articles in this series →</a></p>
+      </div>
+    {% endif %}
   {% endif %}
   
   {{ content }}
   
   {% if page.series %}
     {% assign series_posts = site.posts | where: "series", page.series | sort: "date" %}
-    {% assign current_index = 0 %}
-    {% for post in series_posts %}
-      {% if post.url == page.url %}
-        {% assign current_index = forloop.index0 %}
-        {% break %}
-      {% endif %}
-    {% endfor %}
-    {% assign next_index = current_index | plus: 1 %}
-    {% if next_index < series_posts.size %}
-      {% assign next_post = series_posts[next_index] %}
-      <div class="series-next">
-        <h3>Next in {{ page.series }}</h3>
-        <div class="series-next--content">
-          <h4><a href="{{ next_post.url }}">{{ next_post.title }}</a></h4>
-          <p>{{ next_post.excerpt | strip_html | truncatewords: 20 }}</p>
+    {% if series_posts.size > 1 %}
+      {% assign current_index = 0 %}
+      {% for post in series_posts %}
+        {% if post.url == page.url %}
+          {% assign current_index = forloop.index0 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% assign next_index = current_index | plus: 1 %}
+      {% if next_index < series_posts.size %}
+        {% assign next_post = series_posts[next_index] %}
+        <div class="series-next">
+          <h3>Next in {{ page.series }}</h3>
+          <div class="series-next--content">
+            <h4><a href="{{ next_post.url }}">{{ next_post.title }}</a></h4>
+            <p>{{ next_post.excerpt | strip_html | truncatewords: 20 }}</p>
+          </div>
         </div>
-      </div>
+      {% endif %}
     {% endif %}
   {% endif %}
 </div>
