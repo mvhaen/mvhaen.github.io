@@ -629,7 +629,7 @@ a {
 
 /* Series navigation on blog posts */
 .series-navigation {
-  background: var(--series-nav-bg, rgba(139, 42, 155, 0.05));
+  background: transparent;
   border-left: 3px solid var(--series-color, #8B2A9B);
   padding: 12px 16px;
   margin: 20px 0 24px 0;
@@ -672,8 +672,8 @@ a {
   }
   
   &--content {
-    background: var(--series-next-bg, rgba(139, 42, 155, 0.03));
-    border: 1px solid var(--series-next-border, rgba(139, 42, 155, 0.1));
+    background: transparent;
+    border: 1px solid var(--series-next-border, rgba(139, 42, 155, 0.15));
     border-radius: 8px;
     padding: 20px;
     
