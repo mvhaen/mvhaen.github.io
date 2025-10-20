@@ -245,7 +245,7 @@ hr {
   &--header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 8px;
     
     &--title-section {
@@ -594,7 +594,7 @@ a {
   text-transform: uppercase !important;
   letter-spacing: 0.8px !important;
   white-space: nowrap !important;
-  vertical-align: middle !important;
+  vertical-align: 5px !important;
   line-height: 1 !important;
   border: none !important;
   box-shadow: 0 2px 4px rgba(0,0,0,0.15) !important;
