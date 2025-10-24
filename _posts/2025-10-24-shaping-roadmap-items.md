@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Shaping Roadmap Items"
-subtitle: "Creating predictable roadmaps with flexibility for change"
+subtitle: "Creating predictable roadmaps"
 author: "Michael Voorhaen"
+series: "Roadmap Mastery"
 excerpt: "Exploring how to balance scope, time, and quality in roadmap items while avoiding the pitfalls of feature-focused planning and embracing outcome-based approaches."
 ---
 

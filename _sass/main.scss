@@ -264,8 +264,8 @@ hr {
     &--date {
       font-style: italic;
       font-size: 12px;
-      color: #888;
-      font-weight: 300;
+      color: #666;
+      font-weight: 400;
       white-space: nowrap;
       flex-shrink: 0;
     }
@@ -400,11 +400,13 @@ hr {
     
     .date {
       font-size: 12px;
-      font-weight: 300;
-      color: #888;
+      font-weight: 400;
+      color: #666;
       font-style: italic;
       margin-top: -2px;
       display: block;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
   }
 }
