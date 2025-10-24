@@ -245,7 +245,7 @@ hr {
   &--header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 8px;
     
     &--title-section {
@@ -259,6 +259,7 @@ hr {
       margin-top: 0;
       margin-bottom: 0;
       display: inline;
+      font-size: 18px;
     }
   }
 
@@ -269,6 +270,7 @@ hr {
     font-weight: 400;
     white-space: nowrap;
     flex-shrink: 0;
+    margin-top: 3px;
   }
   
 }
