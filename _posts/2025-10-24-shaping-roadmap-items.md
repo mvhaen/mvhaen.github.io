@@ -10,7 +10,7 @@ If you've ever struggled to create a roadmap that actually delivers on time and 
 
 What I really wanted was a roadmap with margin—not buffer time, but decision space to respond when reality changes. After all, change isn't a risk in product development—it's a constant.
 
-<img src="/assets/images/2025-01-26-shaping-roadmap-items/quality-scope-time.jpg" alt="Quality, Scope, Time triangle" class="no-lightbox" style="width: 30%; float: left; margin: 0 20px 20px 0;" />
+<img src="/assets/images/2025-10-24-shaping-roadmap-items/quality-scope-time.jpg" alt="Quality, Scope, Time triangle" class="no-lightbox" style="width: 30%; float: left; margin: 0 20px 20px 0;" />
 
 ### The Three Variables You Can Actually Control
 
@@ -44,7 +44,7 @@ One approach is to fix time and make scope completely variable. This is what [Sh
 
 This creates a powerful mechanism for teams to control their clock. You need deliberate moments to pause and reflect—are you still moving in the right direction, or do you need to course-correct?
 
-![Shape Up betting cycle](/assets/images/2025-01-26-shaping-roadmap-items/shape-up.png)
+![Shape Up betting cycle](/assets/images/2025-10-24-shaping-roadmap-items/shape-up.png)
 
 I take a different approach with my [betting methodology](/2024/10/20/bet-on-your-roadmap/). Instead of fixed time periods, I use variable-sized bets measured in sprints. The idea is to have meaningful discussions about investment—how much are you willing to spend on this outcome? This creates natural checkpoints during development where you can decide whether to adjust scope, extend the timeline, or both. In our setup, teams work in two-week sprints, so using sprint-based bets helps us keep the cadence of Scrum while still bringing in the investment mindset of Shape Up.
 

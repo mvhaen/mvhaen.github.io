@@ -6,32 +6,32 @@ author: "Michael Voorhaen"
 series: "Conference Notes"
 carousels:
   - images:
-    - image: /assets/images/2025-01-26-less-conference-2025/open-space-day-2-part-1.jpg
-      url: /assets/images/2025-01-26-less-conference-2025/open-space-day-2-part-1.jpg
+    - image: /assets/images/2025-10-20-less-conference-2025/open-space-day-2-part-1.jpg
+      url: /assets/images/2025-10-20-less-conference-2025/open-space-day-2-part-1.jpg
       title: "Day 2 Open Space Schedule - Part 1"
-    - image: /assets/images/2025-01-26-less-conference-2025/open-space-day-2-part-2.jpg
-      url: /assets/images/2025-01-26-less-conference-2025/open-space-day-2-part-2.jpg
+    - image: /assets/images/2025-10-20-less-conference-2025/open-space-day-2-part-2.jpg
+      url: /assets/images/2025-10-20-less-conference-2025/open-space-day-2-part-2.jpg
       title: "Day 2 Open Space Schedule - Part 2"
   - images:
-    - image: /assets/images/2025-01-26-less-conference-2025/how-to-convince-management.png
-      url: /assets/images/2025-01-26-less-conference-2025/how-to-convince-management.png
+    - image: /assets/images/2025-10-20-less-conference-2025/how-to-convince-management.png
+      url: /assets/images/2025-10-20-less-conference-2025/how-to-convince-management.png
       title: "Day 1 - How to Convince Management"
-    - image: /assets/images/2025-01-26-less-conference-2025/less-leadership-appeal.jpeg
-      url: /assets/images/2025-01-26-less-conference-2025/less-leadership-appeal.jpeg
+    - image: /assets/images/2025-10-20-less-conference-2025/less-leadership-appeal.jpeg
+      url: /assets/images/2025-10-20-less-conference-2025/less-leadership-appeal.jpeg
       title: "Day 2 - Less Leadership Appeal"
   - images:
-    - image: /assets/images/2025-01-26-less-conference-2025/alistair-1.png
-      url: /assets/images/2025-01-26-less-conference-2025/alistair-1.png
+    - image: /assets/images/2025-10-20-less-conference-2025/alistair-1.png
+      url: /assets/images/2025-10-20-less-conference-2025/alistair-1.png
       title: "Alistair Cockburn - Organizational Decisions"
-    - image: /assets/images/2025-01-26-less-conference-2025/alistair-2.png
-      url: /assets/images/2025-01-26-less-conference-2025/alistair-2.png
+    - image: /assets/images/2025-10-20-less-conference-2025/alistair-2.png
+      url: /assets/images/2025-10-20-less-conference-2025/alistair-2.png
       title: "Alistair Cockburn - What AI Can and Cannot Handle"
   - images:
-    - image: /assets/images/2025-01-26-less-conference-2025/maarten-1.png
-      url: /assets/images/2025-01-26-less-conference-2025/maarten-1.png
+    - image: /assets/images/2025-10-20-less-conference-2025/maarten-1.png
+      url: /assets/images/2025-10-20-less-conference-2025/maarten-1.png
       title: "Maarten Dalmijn - The Problem is the System"
-    - image: /assets/images/2025-01-26-less-conference-2025/maarten-2.png
-      url: /assets/images/2025-01-26-less-conference-2025/maarten-2.png
+    - image: /assets/images/2025-10-20-less-conference-2025/maarten-2.png
+      url: /assets/images/2025-10-20-less-conference-2025/maarten-2.png
       title: "Maarten Dalmijn - Don't Be Atlas and Slaying the Kraken"
 ---
 
@@ -79,17 +79,17 @@ Some takeaways that stood out to me:
 
 ### Day 1 - My Talk: *The Strobbo Experiment: Elevating Katas on the Road to Business Agility*
 
-![My presentation - The Strobbo Experiment](/assets/images/2025-01-26-less-conference-2025/my-presentation.jpeg)
+![My presentation - The Strobbo Experiment](/assets/images/2025-10-20-less-conference-2025/my-presentation.jpeg)
 
 In case you were wondering about my presentation, I talked about the story of Strobbo and how the rapid scaling of the team brought us almost to a standstill and how we then slowly found our way back to business agility using a lean improvement kata, not having the funding to do a flip. I show you how you can use Org Topologies to visually represent and think about this, and gave concrete examples on which Elevating Katas we applied to get ever closer to the customer again.
 
-If you're interested, you can [download the slides here](/assets/resources/2025-01-26-less-conference-2025/strobbo-experiment-slides.pdf). I hope the recording will be online soon.
+If you're interested, you can [download the slides here](/assets/resources/2025-10-20-less-conference-2025/strobbo-experiment-slides.pdf). I hope the recording will be online soon.
 
 ---
 
 ### Day 2 - Keynote by Bas Vodde: *The Product Backlog*
 
-![Large Scale Scrum Framework](/assets/images/2025-01-26-less-conference-2025/bas-1.png)
+![Large Scale Scrum Framework](/assets/images/2025-10-20-less-conference-2025/bas-1.png)
 
 *Speaker: Bas Vodde*
 
@@ -127,7 +127,7 @@ But then keynotes are also meant to be inspiring right: my personal takeaway, an
 
 Tom Jans ([simplytom.be](https://simplytom.be)) opened his session by introducing the concept of **joint commitment**, drawing from the philosophical work of Margaret Gilbert. He explored how this idea translates into agile teamwork and LeSS transformations, showing how teams move beyond individual intentions to act as a genuine collective.
 
-![Make Philosophy Sexy Again - Tom Jans' presentation slide](/assets/images/2025-01-26-less-conference-2025/make-philosophy-sexy-again.jpeg)
+![Make Philosophy Sexy Again - Tom Jans' presentation slide](/assets/images/2025-10-20-less-conference-2025/make-philosophy-sexy-again.jpeg)
 
 #### What Is Joint Commitment?
 
@@ -147,7 +147,7 @@ Once you understand the concept of joint commitment, you begin to see why certai
 
 The Open Space format was a highlight of the conference, allowing participants to propose and attend sessions on topics that mattered most to them. The marketplace was bustling with diverse topics ranging from technical practices to organizational challenges.
 
-![Open Space Schedule Board](/assets/images/2025-01-26-less-conference-2025/open-space-day-1.jpg)
+![Open Space Schedule Board](/assets/images/2025-10-20-less-conference-2025/open-space-day-1.jpg)
 
 {% include carousel.html number="1" %}
 
@@ -198,7 +198,7 @@ A few additional insights emerged from other conference discussions:
 
 *Facilitated by Alexey Krivitsky*
 
-![Strategic vs Naive AI](/assets/images/2025-01-26-less-conference-2025/strategic-vs-naive-ai.png)
+![Strategic vs Naive AI](/assets/images/2025-10-20-less-conference-2025/strategic-vs-naive-ai.png)
 
 This was a really insightful discussion about how we need to reflect carefully about when AI is just local optimization vs a really strategic and systemic change. This connects back to Alistair's talk about errors in organizations — using AI locally can lead to the effect of just speeding up making mistakes, for which the organization is not equipped to handle them effectively, and could make things even worse. We need to really see where it can make a difference.
 
