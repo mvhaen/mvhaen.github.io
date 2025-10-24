@@ -100,7 +100,7 @@ class Lightbox {
     // Add click listeners to other images (not in carousels)
     const otherImages = document.querySelectorAll('.blog-post img, article img');
     otherImages.forEach((img, index) => {
-      if (!img.closest('.image-gallery-index')) {
+      if (!img.closest('.image-gallery-index') && !img.classList.contains('no-lightbox')) {
         img.addEventListener('click', (e) => {
           e.preventDefault();
           this.openSingle(img.src, img.alt);

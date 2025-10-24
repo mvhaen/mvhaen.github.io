@@ -438,8 +438,8 @@ a {
   }
 }
 
-/* Article image styling - exclude carousel images */
-.blog-post img:not(.image-gallery-index img) {
+/* Article image styling - exclude carousel images and no-lightbox images */
+.blog-post img:not(.image-gallery-index img):not(.no-lightbox) {
   width: 100% !important;
   max-width: none !important;
   height: auto;
