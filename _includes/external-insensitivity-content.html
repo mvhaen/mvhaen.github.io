@@ -1,0 +1,199 @@
+## 1. Introduction
+
+I have long been fascinated by what makes organizations work. Much of my attention in recent years has gone to organizational design, with frameworks like LeSS, Team Topologies, and Org Topologies shaping both debates and practices in the agile community. Yet design structures are never just about boxes and lines — they carry with them assumptions about how people think and act.
+
+I was reading *Leadership is Language* (L. David Marquet, 2020) and then Steven C. Hayes’ *A Liberated Mind* (2019) over the summer, and some things began to come together. Marquet showed how language shapes the way decisions are made, highlighting how easily rules, scripts, and conversational patterns can limit our ability to notice new information. Hayes described the insensitivity effect, the tendency to keep following rules even when they no longer fit, and that triggered me to dive deeper into psychology and see what research existed on how people and teams get stuck.
+
+From there, my reading pulled me into psychological research on the insensitivity effect, cognitive entrenchment, and the consequences of expertise — not only at the individual level (Dane, 2010), but also at the team level. Research has shown that groups too can become entrenched: when teams rely on stable schemas or long-tenured expertise, they often adapt poorly to change. This has been documented in multiple ways: the “Not Invented Here” syndrome in R&D groups (Katz & Allen, 1982), boundary crossing and polycontextuality in expert cognition (Engeström et al., 1995), routines as collective schemas that risk persistence (Feldman & Pentland, 2003), long-term reviews of team mental models (Mohammed et al., 2010), empirical studies of mental model updating (Uitdewilligen et al., 2013). These dynamics provide a powerful lens for understanding why some organizations remain flexible while others drift into rigidity.
+
+This essay extends existing critiques of organizational design frameworks by explicitly applying psychological mechanisms such as insensitivity, entrenchment, social identity, and reinforcement loops. This perspective highlights risks that remain underexplored in current agile discourse and offers a fresh lens for evaluating how frameworks are written, interpreted, and applied.
+
+## 2. The Insensitivity Effect
+
+In *A Liberated Mind*, Hayes (2019) describes the insensitivity effect: once rules are established, people often stick to them, even when direct evidence suggests they should adapt. In one well-known experiment, animals and humans were trained to press a button to receive a reward. When the reward schedule changed, the animals quickly adapted their behavior. The humans did not. They kept following the original instruction — “press the button for money” — even though it no longer produced the best outcome. The rule overrode direct experience.
+
+Although this effect was first documented in individuals, research shows it also appears in teams. Uitdewilligen, Waller, and Pitariu (2013) found that when teams failed to update their mental models, they adapted poorly in dynamic environments — a direct parallel to insensitivity at the group level.
+
+Once rules are in place, their grip is strengthened by cognitive biases. Anchoring fixes our attention on the rule, while confirmation bias drives us to seek only evidence that supports it. The result is that attention narrows further than the rule alone would dictate. Together with the insensitivity effect, these biases shrink the breadth of input we notice. Gersick and Hackman (1990) add that once routines form around such rules, they become self-reinforcing: familiar behaviors are repeated not only because they work but because they reduce uncertainty and provide stability, making it even harder to change course.
+
+But rules are not inherently bad. As Marquet (2020) points out, rules and standardization are valuable for execution — what he calls redwork. Redwork benefits from reducing variability: in manufacturing, every part should be identical; in operations, procedures should be followed precisely; in a fast-food restaurant, every hamburger should be the same unless requested otherwise. Here, rules bring safety, consistency, and efficiency.
+
+By contrast, Marquet distinguishes bluework, which is about decision-making. Bluework thrives on variability: in brainstorming, you want many different ideas; in problem-solving, you want multiple perspectives; in sense-making, you want to surface uncertainty. Bluework depends on curiosity, openness, and questioning.
+
+The challenge is that organizations often confuse the two. They bring a redwork playbook (reduce variability) to a bluework situation (embrace variability). In doing so, they unintentionally suppress the very adaptability they need.
+
+![Redwork vs Bluework](/assets/images/2025-01-26-insensitivity-entrenchment-agility/redwork-bluework.jpg)
+
+## 3. Cognitive Entrenchment
+
+If the insensitivity effect explains how rules can make us blind in the short term, cognitive entrenchment shows how expertise deepens that blindness over time. Dane (2010) describes how experts build rich schemas that let them act quickly and reliably in their domain. Yet those same schemas become rigid: they make it harder to reframe problems or adapt when conditions change.
+
+At the team level, this pattern has long been observed. Katz and Allen (1982) described how long-tenured R&D teams slipped into “Not Invented Here” patterns, reducing external communication and ultimately declining in performance. Feldman and Pentland (2003) showed how routines, while efficient, risk hardening if not continually re-examined. Mohammed, Ferzandi, and Hamilton (2010) reviewed the “team mental model” construct, emphasizing that while shared cognition supports coordination, it can also limit adaptability when left unchallenged. Uitdewilligen, Waller, and Pitariu (2013) provided direct evidence of this: teams that failed to update their shared mental models adapted poorly when environments changed — a clear case of collective entrenchment. Taken together, these studies confirm that entrenchment is not just an individual risk — it is a collective one.
+
+Why is this so common? One mechanism is cognitive load. Considering multiple perspectives and options is mentally demanding, and people (and teams) are naturally inclined to avoid that effort. Narrowing scope reduces the load, which is why specialization and stability feel efficient in the short run. But the hidden cost is rigidity. The very schemas that drive short-term performance eventually make it harder to adapt, leaving both individuals and teams less agile when conditions shift.
+
+This explains why teams that specialize narrowly often look effective in the moment: fewer variables, smoother execution, faster throughput. Yet the research shows the long-term price — rigidity, blind spots, and a reduced capacity for adaptation. Bandura (1991) helps explain why: behaviors that feel efficient and reduce strain tend to reinforce themselves. Narrow scopes not only lighten the load but also reward teams with a sense of mastery and smoothness, making them harder to abandon later — even when the environment demands change.
+
+Importantly, Jurgen De Smet and Viktor Grcić (2023) argue that cognitive load can be managed differently — through thoughtful design of information flow and team structures — rather than simply by narrowing scope. This highlights that while entrenchment may feel like the easy path, it is not the only path.
+
+## 4. Applying These Concepts to Team Topologies
+
+*Team Topologies* (Skelton & Pais, 2019) has gained popularity by offering four clear team types and three modes of interaction. Its appeal lies in simplicity: it gives organizations struggling with complexity a vocabulary that feels stabilizing. For many, this provides the first coherent language to talk about team structures.  
+
+Yet the book frames these types in strongly prescriptive terms: *“Building and running a software system can be achieved using only four team types. Other team types can be actively harmful to an organization”* (Skelton & Pais, 2019, p. XX). Although the authors describe them as “patterns,” this rhetoric elevates them from descriptive options to an implied blueprint. The tension between “patterns” on the one hand and “only four” on the other makes it easy for organizations to adopt them as fixed rules rather than provisional guides.  
+
+From the perspective of the **insensitivity effect**, this is significant. Once boundaries are defined — “this is my domain, not yours” — teams may cling to them even when the environment changes. Even if today’s team–architecture alignment is effective, tomorrow’s context may demand something different. Without deliberate mechanisms for reevaluating, the very structure intended to enable adaptability can instead trap organizations in rigidity. Social identity theory (Tajfel & Turner, 1979) helps explain why: once people are told they belong to a specific group — in this case, a “type” of team — they tend to internalize that identity. The boundary becomes part of their self-concept, reinforcing the separation and making it harder to reconfigure when circumstances change.  
+
+From the perspective of **cognitive entrenchment**, TT’s central promise is to reduce cognitive load by narrowing team focus. This sounds sensible: less to worry about, smoother flow, clearer ownership. Yet research on expertise warns that narrowing scope creates a hidden cost. Rich schemas formed in stable domains may speed up local execution, but over time they harden into inflexibility, making it harder to reframe problems when conditions change. What looks like an elegant solution to overload risks entrenching knowledge silos that resist adaptation.  
+
+The book does acknowledge that topologies should evolve, and it encourages organizations to review value streams regularly. Yet it stops there: it offers no concrete practices or mechanisms — such as scheduled boundary reviews, architectural retrospectives, or cross-team experiments — to ensure this reflection actually happens. Without such safeguards, many organizations are likely to drift into treating the four topologies as fixed patterns rather than provisional guides — a tendency consistent with research on rule insensitivity (Hayes, 2019) and the persistence of routines (Feldman & Pentland, 2003). In other words, TT gestures at evolution but provides few concrete mechanisms to ensure it, leaving teams at risk of the very insensitivity and entrenchment it seeks to prevent. These risks are not inevitable, but psychological research suggests they are probable unless deliberate safeguards are in place.  
+
+This gap has not gone unnoticed. Patricia Aas (2025) argues that TT misunderstands Conway’s Law by over-indexing on mirroring architecture rather than questioning whether the architecture itself needs to evolve. Marty Oost (2024) similarly warns that TT invites copy-paste adoption and even suggests Domain-Driven Design (DDD) as a stronger starting point, since it emphasizes modeling domains in dialogue with business realities rather than freezing them into static structures. Alexey Krivitsky (2022) and Błażej Drobniuch (2024) have also raised concerns, particularly about how TT oversimplifies cognitive load and risks turning fluid collaboration into rigid patterns.  
+
+My comparison here is about how these frameworks are presented in their canonical texts, not necessarily how skilled practitioners might apply them in practice.
+
+![Team Topologies Model](/assets/images/2025-01-26-insensitivity-entrenchment-agility/team-topologies-model.jpeg)
+
+---
+
+## 5. Applying These Concepts to LeSS
+
+*Large-Scale Scrum (LeSS)* takes a very different approach. Instead of prescribing fixed team types or interaction modes, it emphasizes whole-product ownership, one backlog, and regular cross-team events. Where TT codifies patterns, LeSS creates conditions for learning and adaptation.
+
+From the perspective of the **insensitivity effect**, this matters. LeSS broadens communication: cross-team reviews, refinements, and planning sessions keep signals flowing across boundaries. Teams are not bound to predefined patterns; they are continually exposed to perspectives that challenge anchors and surface disconfirming evidence.
+
+From the perspective of **cognitive entrenchment**, LeSS safeguards against rigidity. By sharing responsibility for the whole product, rotating work, and exposing teams to varied problems, it prevents expertise from calcifying in narrow silos. Short-term efficiency may be sacrificed, but the payoff is long-term adaptability.
+
+![The LeSS Complete Picture – Principles, Rules, Guides, and Experiments](/assets/images/2025-01-26-insensitivity-entrenchment-agility/less-complete-picture.png)
+
+LeSS achieves this balance through a layered design of **principles, rules, guides, and experiments**. Principles anchor decisions, rules provide minimal structure, guides suggest useful practices, and experiments keep learning alive. This ensures patterns remain provisional, continuously tested and adapted.
+
+These layers are reinforced by deeper models:  
+- **Systems thinking** keeps interdependencies visible.  
+- **Queueing theory** highlights bottlenecks and inefficiencies.  
+- **Lean thinking** encourages experimentation and continuous learning.  
+
+LeSS mitigates many psychological risks through whole-product focus and cross-team learning, yet it is not immune: if its principles and events are applied mechanically, insensitivity and entrenchment can still creep in over time.
+
+---
+
+## 6. Org Topologies
+
+Where TT prescribes and LeSS simplifies, *Org Topologies™* (Krivitsky & Flemm, 2021–) positions itself as descriptive. Instead of dictating what organizations should look like, it offers a language to map current structures along two axes: CAPS (Capability, Autonomy, Purpose, Skills) and PART/WHOLE levels of ownership.
+
+This language has an important effect: it naturally opens up the right discussions. By focusing on the scope of work mandate and the scope of skills mandate, Org Topologies directs attention to whether a team’s accountabilities and abilities are aligned. That immediately counters the insensitivity effect: instead of blindly following inherited structures, organizations must ask whether mandates still fit reality, whether critical skills are missing, and whether signals from the environment are being ignored.
+
+Org Topologies also helps organizations confront cognitive entrenchment by framing structure as a set of trade-offs rather than absolutes. A PART-1 team with a narrow mandate may be efficient but inflexible; a WHOLE-3 team may be more adaptable but requires more investment. There is no universal best answer. The framework invites organizations to ask: given our goals and environment, which configuration makes sense right now? That shift — from “the right topology” to situational trade-offs — is what helps prevent entrenchment from becoming invisible.
+
+To support this process, Org Topologies proposes the **MADE cycle**:  
+- Map the current topology.  
+- Assess the constraints and opportunities.  
+- Design changes that fit the context.  
+- Elevate the organization by moving toward broader adaptability.  
+
+![Org Topologies Axes](/assets/images/2025-01-26-insensitivity-entrenchment-agility/org-topologies-made-method.jpg)
+
+Even here, the risk lies not in the framework itself but in human tendencies. Org Topologies is most valuable when its maps are used to spark ongoing reflection and debate; if instead they are used to defend positions, the framework too can harden into unquestioned rules, echoing the very insensitivity and entrenchment it seeks to avoid.
+
+---
+
+## 7. The Role of Leadership
+
+Both the insensitivity effect and cognitive entrenchment remind us that agility is not automatic. Left unchecked, rules and expertise narrow perception, creating efficiency at the cost of adaptability. Leadership plays a crucial role in counteracting these dynamics.
+
+Leaders must first be intentional in how they design organizations. Narrow mandates and rigid ownership may feel efficient, but they risk entrenchment. Broader mandates and shared responsibilities invite more adaptability. Some approaches, like LeSS, provide a framework that organizations can adopt to keep variability alive through whole-product focus and shared events. Others, like Org Topologies (Krivitsky & Flemm) or *Creating Agile Organizations* (Ramos & Pavlichenko, 2022), offer tools that help leaders assess and design their structures for themselves, making trade-offs visible rather than prescribing one “right” form.
+
+Crucially, leadership style itself shapes adaptability. A recent meta-analysis shows that transformational leadership and self-leadership both improve adaptive performance (Bonini et al., 2024). Empathetic leadership has been found to foster innovation by opening space for new ideas (Ma et al., 2024), while authentic leadership enhances collective information processing, especially in cognitively diverse teams. Conversely, leaders who rely on rigid evaluation and command-and-control language increase the risk of entrenchment; Leone & Reiter-Palmon (2022) suggest countermeasures like rotating team members, creating fresh evaluation criteria, and redesigning spaces to disrupt stagnation.
+
+Finally, leaders must recognize that organizational design itself cannot be a one-off decision. Even carefully chosen structures will drift toward rigidity over time. That means design must be treated as a process of continuous inspection and adaptation. Leaders need to create regular opportunities to debate, reflect, and even challenge whether the current design is still serving its purpose. Without this discipline, the very psychological effects described earlier — insensitivity to change and entrenchment of expertise — will creep back in, undermining adaptability.
+
+---
+
+## 8. Conclusion
+
+The insensitivity effect and cognitive entrenchment point to the same underlying truth: the biggest threat to agility is not chaos, but rigidity. Rules and expertise simplify work and make execution more efficient, but they also narrow perception and reduce adaptability. Left unchecked, they turn useful practices into blind anchors and deep skills into hardened silos.
+
+This is where organizational design often goes wrong. Too many frameworks promise agility through structure alone. *Team Topologies*, for example, optimizes for execution but leaves decision-making undernourished, offering little guidance on how to adapt when the environment shifts. *LeSS*, by contrast, recognizes that agility requires keeping variability alive in thinking and decision-making — though it still carries the risk of mechanical adoption if its principles and events are treated as ends rather than enablers. *Org Topologies* adds valuable language to surface trade-offs, but it too depends on practice: if leaders use maps to defend positions rather than to question them, the framework can harden into exactly the kind of unquestioned rules it was meant to dissolve.
+
+Among these frameworks, TT appears most vulnerable to drift into rigidity if applied mechanically, while LeSS and OT embed more safeguards against psychological traps — though neither is immune. The deeper lesson is this: psychological dynamics run deeper than structural choices. If organizations treat patterns as permanent or allow expertise to calcify, no amount of structural design will keep them adaptive. But if they create environments where rules are provisional, expertise remains dynamic, and language invites variability in decision-making, then agility becomes more than a buzzword — it becomes a sustained capacity.
+
+In the end, agility is not only about how we structure teams, nor only about how we think, decide, and speak together. It is the combination of both. Structures without adaptive mindsets will harden, while adaptive language without structural support will fizzle out. True agility requires that organizational design and human psychology are treated as inseparable: we must continuously shape both the way we organize and the way we use rules, expertise, and language. Only then can adaptability become a sustained capacity rather than a temporary achievement.
+
+This essay extends existing critiques of organizational design frameworks by applying psychological mechanisms — insensitivity, entrenchment, social identity, and reinforcement. This perspective highlights risks that remain underexplored in current agile discourse and shows why safeguards are needed if agility is to endure.
+---
+
+# References – Insensitivity, Entrenchment, and Agility
+
+- Aas, P. (2025). *The Fundamental Misunderstanding in Team Topologies.* [Blog post].  
+  [https://patricia.no/2025/05/24/team_topologies.html](https://patricia.no/2025/05/24/team_topologies.html)
+
+- Bandura, A. (1991). *Social cognitive theory of self-regulation.* Organizational Behavior and Human Decision Processes, 50(2), 248–287.  
+  [https://doi.org/10.1016/0749-5978(91)90022-L](https://doi.org/10.1016/0749-5978(91)90022-L)
+
+- Bonini, S., et al. (2024). *Leadership and adaptive performance: A systematic review and meta-analysis.* PLOS One.  
+  [https://doi.org/10.1371/journal.pone.0304720](https://doi.org/10.1371/journal.pone.0304720)
+
+- Conway, M. E. (1968). *How do committees invent?* Datamation, 14(4), 28–31.  
+  [https://www.melconway.com/Home/Conways_Law.html](https://www.melconway.com/Home/Conways_Law.html)
+
+- Dane, E. (2010). *Reconsidering the trade-off between expertise and flexibility: A cognitive entrenchment perspective.* Academy of Management Review, 35(4), 579–603.  
+  [https://doi.org/10.5465/amr.35.4.zok579](https://doi.org/10.5465/amr.35.4.zok579)
+
+- De Smet, J., & Grcić, V. (2023). *Navigating Complexity of Cognitive Load in Software Product Development.* Leanpub.  
+  [https://leanpub.com/cognitiveload](https://leanpub.com/cognitiveload)
+
+- Drobniuch, B. (2024). *From Conway’s Law to Cognitive Load: Rethinking Organizational Agility (Talk LeSS 2024).* [Video].  
+  [https://www.youtube.com/watch?v=ruq7_fHYpsE](https://www.youtube.com/watch?v=ruq7_fHYpsE)
+
+- Engeström, Y., Engeström, R., & Kärkkäinen, M. (1995). *Polycontextuality and boundary crossing in expert cognition.* Learning and Instruction, 5(4), 319–336.  
+  [https://doi.org/10.1016/0959-4752(95)00021-6](https://doi.org/10.1016/0959-4752(95)00021-6)
+
+- Feldman, M. S., & Pentland, B. T. (2003). *Reconceptualizing Organizational Routines as a Source of Flexibility and Change.* Administrative Science Quarterly, 48(1), 94–118.  
+  [https://doi.org/10.2307/3556620](https://doi.org/10.2307/3556620)
+
+- Gersick, C. J. G., & Hackman, J. R. (1990). *Habitual routines in task-performing groups.* Organizational Behavior and Human Decision Processes, 47(1), 65–97.  
+  [https://doi.org/10.1016/0749-5978(90)90047-D](https://doi.org/10.1016/0749-5978(90)90047-D)
+
+- Hayes, S. C. (2019). *A Liberated Mind: How to Pivot Toward What Matters.* Avery.  
+  [https://www.goodreads.com/book/show/43263358-a-liberated-mind](https://www.goodreads.com/book/show/43263358-a-liberated-mind)
+
+- Katz, R., & Allen, T. J. (1982). *Investigating the “Not Invented Here” (NIH) syndrome: Performance, tenure, and communication patterns of 50 R&D project groups.* R&D Management, 12(1), 7–20.  
+  [https://doi.org/10.1111/j.1467-9310.1982.tb00478.x](https://doi.org/10.1111/j.1467-9310.1982.tb00478.x)
+
+- Krivitsky, A. (2022). *How Adaptive Are Team Topologies?* Org Topologies blog.  
+  [https://www.orgtopologies.com/post/how-adaptive-are-team-topologies](https://www.orgtopologies.com/post/how-adaptive-are-team-topologies)
+
+- Krivitsky, A., & Flemm, R. (2021–). *Org Topologies™.*  
+  [https://www.orgtopologies.com](https://www.orgtopologies.com)
+
+- Larman, C., & Vodde, B. (2016). *Large-Scale Scrum: More with LeSS.* Addison-Wesley.  
+  [https://less.works/less/framework/index.html](https://less.works/less/framework/index.html)
+
+- Leone, S. A., & Reiter-Palmon, R. (2022). *Leading creative teams: A process-perspective with implications for organizational leaders.* Translational Issues in Psychological Science, 8(1), 90–103.  
+  [https://doi.org/10.1037/tps0000296](https://doi.org/10.1037/tps0000296)
+
+- Ma, H., et al. (2024). *Empathetic leadership as adaptive preparation: Fostering innovation through openness.* Frontiers in Psychology.  
+  [https://doi.org/10.3389/fpsyg.2024.1523456](https://doi.org/10.3389/fpsyg.2024.1523456)
+
+- Marquet, D. L. (2020). *Leadership is Language: The Hidden Power of What You Say and What You Don’t.* Penguin.  
+  [https://www.goodreads.com/book/show/42774083-leadership-is-language](https://www.goodreads.com/book/show/42774083-leadership-is-language)
+
+- Mohammed, S., Ferzandi, L., & Hamilton, K. (2010). *Metaphor No More: A 15-Year Review of the Team Mental Model Construct.* Journal of Management, 36(4), 876–910.  
+  [https://doi.org/10.1177/0149206309356804](https://doi.org/10.1177/0149206309356804)
+
+- Oost, M. (2024). *Stop Team Topologies.* Medium.  
+  [https://martyoo.medium.com/stop-team-topologies-fd954ea26eca](https://martyoo.medium.com/stop-team-topologies-fd954ea26eca)
+
+- Ramos, C., & Pavlichenko, I. (2022). *Creating Agile Organizations: A Systemic Approach to Develop People and Teams for Superior Performance.* Addison-Wesley.  
+  [https://www.informit.com/store/creating-agile-organizations-a-systemic-approach-to-9780136523263](https://www.informit.com/store/creating-agile-organizations-a-systemic-approach-to-9780136523263)
+
+- Skelton, M., & Pais, M. (2019). *Team Topologies: Organizing Business and Technology Teams for Fast Flow.* IT Revolution.  
+  [https://teamtopologies.com/book](https://teamtopologies.com/book)
+
+- Tajfel, H., & Turner, J. C. (1979). *An integrative theory of intergroup conflict.* In W. G. Austin & S. Worchel (Eds.), *The social psychology of intergroup relations* (pp. 33–47). Brooks/Cole.
+
+- Uitdewilligen, S., Waller, M. J., & Pitariu, A. H. (2013). *Mental model updating and team adaptation.* Small Group Research, 44(2), 127–158.  
+  [https://doi.org/10.1177/1046496413478205](https://doi.org/10.1177/1046496413478205)
+
+- LeRoy, J., & Simons, M. (2010). *Inverse Conway Maneuver*. Cutter IT Journal, December 2010 issue. Cited via Martin Fowler’s blog.  
+  [https://martinfowler.com/bliki/ConwaysLaw.html](https://martinfowler.com/bliki/ConwaysLaw.html)

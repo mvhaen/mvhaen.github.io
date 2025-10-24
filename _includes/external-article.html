@@ -1,0 +1,9 @@
+{% assign external_file = include.file %}
+{% assign external_content = site.data.external_content[external_file] %}
+
+{% if external_content %}
+  {{ external_content | markdownify }}
+{% else %}
+  <p>External content not found: {{ external_file }}</p>
+  <p>Available files: {{ site.data.external_content | keys | join: ', ' }}</p>
+{% endif %}
