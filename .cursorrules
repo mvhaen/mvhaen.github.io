@@ -104,4 +104,33 @@ Write as if you're having a conversation with a colleague over coffee, sharing p
 5. Include specific examples from real work situations
 6. Make sure solutions are actionable and practical
 
+## Article Maintenance Rules
+
+### Changelog Requirements
+- **MANDATORY**: When modifying any published article (in `_posts/`), ALWAYS add a changelog entry
+- **Format**: Use bullet points with date and brief description of changes
+- **Placement**: Add changelog section at the bottom of the article using the established styling
+- **Content**: Describe what was added, changed, or improved
+- **Example**: 
+  ```markdown
+  <div class="changelog">
+    <h3>Changelog</h3>
+    <div class="changelog--content">
+      <div class="changelog--entry">
+        <span class="changelog--date">[Date]</span>
+        <ul>
+          <li>[Description of change]</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  ```
+
+### Article Update Process
+1. Make content changes
+2. Add changelog entry with current date
+3. Test the build
+4. Commit with descriptive message
+5. Push to production
+
 Remember: Readers are looking for practical insights from someone who's been there. Write like you're sharing valuable experience with a friend who's facing the same challenges.
