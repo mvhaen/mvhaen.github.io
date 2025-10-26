@@ -5,6 +5,17 @@ subtitle: "Building resilient and adaptive roadmaps"
 author: "Michael Voorhaen"
 series: "Roadmap Mastery"
 excerpt: "Exploring how to balance scope, time, and quality in roadmap items while avoiding the pitfalls of feature-focused planning and embracing outcome-based approaches."
+carousels:
+  - images:
+      - url: /assets/images/2025-10-24-shaping-roadmap-items/story-mapping-1.png
+        image: /assets/images/2025-10-24-shaping-roadmap-items/story-mapping-1.png
+        title: "Story Mapping Overview"
+      - url: /assets/images/2025-10-24-shaping-roadmap-items/story-mapping-2.png
+        image: /assets/images/2025-10-24-shaping-roadmap-items/story-mapping-2.png
+        title: "Story Mapping Detail"
+      - url: /assets/images/2025-10-24-shaping-roadmap-items/story-mapping-3.png
+        image: /assets/images/2025-10-24-shaping-roadmap-items/story-mapping-3.png
+        title: "Value Slicing"
 ---
 
 If you've ever struggled to create a roadmap that actually delivers on time and meets expectations, you're not alone. At Strobbo, I faced this challenge repeatedly—roadmaps that looked great on paper but fell apart when reality hit. The problem wasn't the planning itself, but how we were shaping the items on our roadmap.
@@ -23,11 +34,13 @@ The key principle I always stick to: **never cave on quality**. Once you start c
 
 ### The Most Common Mistake I See
 
-The most common mistake I see teams make is creating a situation where **scope is fixed** and **time becomes the only variable** you can adjust. When problems arise, the only escape route is extending your timeline. Sound familiar?
+The most common mistake I see teams make is creating a situation where **scope is fixed** and **time becomes the only variable** you can adjust. When problems arise, the only escape route is to extend your timeline. Sound familiar?
 
 This trap most easily occurs when we put features on a roadmap. I've seen this happen time and again—features become honey traps for ideas, expectations, and assumptions. When you communicate about features with customers or stakeholders, they start filling in how it will solve their problem. But when reality hits and it doesn't deliver as expected, frustration follows.
 
 Feature roadmaps also shift focus from solving **problems** to creating **features**—a subtle but dangerous distinction. We fall in love with the feature, not the problem. The goal becomes to deliver the feature, not to get a solution in the hands of the customer. And the moment you fall in love with the feature, that's also when scope creep starts.
+
+<img src="/assets/images/2025-10-24-shaping-roadmap-items/feature-creep.jpg" alt="Attack of the Feature Creep by Tom Fishburne" style="max-height: 800px; width: 80% !important; display: block; margin: 20px auto;" />
 
 ### But What If We Flipped the Script?
 
@@ -68,7 +81,7 @@ When you put the feature on the roadmap, the team focuses on building a notifica
 - Push + email + in-app?
 - A full notification history?
 
-Soon, you're collecting feedback about what is missing from the feature — **optimizing the solution, not the result**. It becomes a self-fulfilling prophecy: you asked for a notification center, and you will definitely build a notification center.
+Soon, you're collecting feedback about what is missing from the feature—**optimizing the solution, not the result**. It becomes a self-fulfilling prophecy: you asked for a notification center, and you will definitely build a notification center.
 
 When you put the outcome on the roadmap, the team focuses on helping users act in time. The conversations shift:
 
@@ -87,11 +100,11 @@ And maybe the right solution is a notification center. But it could also be:
 - A badge showing only actionable items
 - Automated actions that remove the need for notifications entirely
 
-Because you're not committed to building the feature — **you're committed to making something better happen**. You solve problems faster. You avoid unnecessary complexity. You deliver value earlier.
+Because you're not committed to building the feature—you're committed to making something *better* happen. You solve problems faster. You avoid unnecessary complexity. You deliver value earlier.
 
-So what happens when you eventually build a feature? When you pursue outcomes, you will eventually zoom in on a feature — because something still needs to be built to solve the problem. The difference is how you get there.
+So what happens when you eventually build a feature? When you pursue outcomes, you will eventually zoom in on a feature—because something still needs to be built to solve the problem. The difference is how you get there.
 
-All those "feature questions" are still useful — but they belong in the **divergent part of the work**, where you explore solutions freely. Then you use the focus on the outcome to converge toward the smallest version that actually delivers value.
+All those "feature questions" are still useful—but they belong in the **divergent part of the work**, where you explore solutions freely. Then you use the focus on the outcome to converge toward the smallest version that actually delivers value.
 
 ![Diverge to create choices, converge to make choices](/assets/images/2025-10-24-shaping-roadmap-items/diverge-converge.tiff)
 
@@ -99,7 +112,13 @@ All those "feature questions" are still useful — but they belong in the **dive
 
 Here's how this works in practice. In the **divergent phase**, you ask all those feature questions without judgment: Should we support multiple notification types? What about filtering? Do we need grouping, priorities, snoozing? Push + email + in-app? A full notification history? You explore every possibility, no matter how complex or ambitious.
 
-In the **convergent phase**, your outcome focus becomes your filter. You take all those possibilities and ask: "Which of these actually helps users act in time?" You start with the smallest thing that could work, measure whether it moves the needle, and only add complexity when you have evidence it's needed. Techniques like **user story mapping** can be very powerful here — they help you build out a broad view of all the possibilities, then slice the work toward concrete outcomes. You see the full landscape of what could be built, but then you choose the slice that delivers the most value for your specific outcome.
+In the **convergent phase**, your outcome focus becomes your filter. You take all those possibilities and ask: "Which of these actually helps users act in time?" You start with the smallest thing that could work, measure whether it moves the needle, and only add complexity when you have evidence it's needed. Techniques like **user story mapping** can be very powerful here—they help you build out a broad view of all the possibilities, then slice the work toward concrete outcomes.
+
+{% include carousel.html number="1" %}
+
+*Source: [RHT Labs - User Story Mapping and Value Slicing](https://rht-labs.com/tech-exercise/slides/content/?name=user-story-mapping-and-value-slicing)*
+
+You see the full landscape of what could be built, but then you choose the slice that delivers the most value for your specific outcome.
 
 The magic happens in the transition between these phases. Instead of building everything you can think of, you build the smallest thing that could possibly work to achieve your outcome. Then you measure, learn, and iterate.
 
@@ -126,6 +145,13 @@ The result? A roadmap that's both *predictable* and *flexible*—exactly what yo
       <ul>
         <li>Added "Feature vs Outcome — And Why It Changes How Teams Work" section to provide a concrete example of how focusing on outcomes rather than features changes team behavior and decision-making</li>
         <li>Added strategic highlights throughout the article to emphasize key concepts</li>
+      </ul>
+    </div>
+    <div class="changelog--entry">
+      <span class="changelog--date">October 25, 2025</span>
+      <ul>
+        <li>Added a visual example of how scope creep happens when we fall in love with features instead of focusing on problems</li>
+        <li>Added illustrations showing how user story mapping helps you see all the possibilities, then slice the work toward concrete outcomes</li>
       </ul>
     </div>
   </div>

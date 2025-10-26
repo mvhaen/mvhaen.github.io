@@ -28,7 +28,7 @@
 .lightbox-content img {
   width: 100%;
   height: auto;
-  max-height: 90vh;
+  max-height: 95vh;
   object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
