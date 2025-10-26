@@ -421,9 +421,11 @@ hr {
       white-space: nowrap;
       flex-shrink: 0;
       background: rgba(139, 42, 155, 0.08);
-      padding: 2px 6px;
+      padding: 4px 8px;
       border-radius: 8px;
       border: 1px solid rgba(139, 42, 155, 0.15);
+      text-align: center;
+      line-height: 1.2;
     }
   }
 }
