@@ -1,0 +1,19 @@
+{% if page.changelog %}
+<div class="changelog">
+  <h3>Updates</h3>
+  <div class="changelog--content">
+    {% assign sorted_changelog = page.changelog | sort: "date" | reverse %}
+    {% for entry in sorted_changelog %}
+    <div class="changelog--entry">
+      <span class="changelog--date">{{ entry.date | date: "%-d %b %Y" }}</span>
+      <ul>
+        {% for change in entry.changes %}
+        <li>{{ change }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
