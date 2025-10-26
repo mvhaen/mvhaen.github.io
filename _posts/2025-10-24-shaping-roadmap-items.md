@@ -5,6 +5,15 @@ subtitle: "Building resilient and adaptive roadmaps"
 author: "Michael Voorhaen"
 series: "Roadmap Mastery"
 excerpt: "Exploring how to balance scope, time, and quality in roadmap items while avoiding the pitfalls of feature-focused planning and embracing outcome-based approaches."
+changelog:
+  - date: "2025-10-25"
+    changes:
+      - "Added 'Feature vs Outcome — And Why It Changes How Teams Work' section to provide a concrete example of how focusing on outcomes rather than features changes team behavior and decision-making"
+      - "Added strategic highlights throughout the article to emphasize key concepts"
+  - date: "2025-10-26"
+    changes:
+      - "Added a visual example of how scope creep happens when we fall in love with features instead of focusing on problems"
+      - "Added illustrations showing how user story mapping helps you see all the possibilities, then slice the work toward concrete outcomes"
 carousels:
   - images:
       - url: /assets/images/2025-10-24-shaping-roadmap-items/story-mapping-1.png
@@ -136,23 +145,3 @@ Well-shaped roadmap items share a few consistent characteristics:
 - **Build in margin**: Plan for the inevitable changes that will come
 
 The result? A roadmap that's both *predictable* and *flexible*—exactly what you need to deliver value consistently, even as things change.
-
-<div class="changelog">
-  <h3>Changelog</h3>
-  <div class="changelog--content">
-    <div class="changelog--entry">
-      <span class="changelog--date">October 25, 2025</span>
-      <ul>
-        <li>Added "Feature vs Outcome — And Why It Changes How Teams Work" section to provide a concrete example of how focusing on outcomes rather than features changes team behavior and decision-making</li>
-        <li>Added strategic highlights throughout the article to emphasize key concepts</li>
-      </ul>
-    </div>
-    <div class="changelog--entry">
-      <span class="changelog--date">October 25, 2025</span>
-      <ul>
-        <li>Added a visual example of how scope creep happens when we fall in love with features instead of focusing on problems</li>
-        <li>Added illustrations showing how user story mapping helps you see all the possibilities, then slice the work toward concrete outcomes</li>
-      </ul>
-    </div>
-  </div>
-</div>
