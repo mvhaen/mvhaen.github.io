@@ -2,10 +2,24 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | Rooster</title>
+    <meta name="color-scheme" content="light dark">
+    <script>
+      // Apply persisted theme early to avoid flash
+      (function(){
+        try {
+          var t = localStorage.getItem('theme');
+          if (t === 'light' || t === 'dark') {
+            document.documentElement.setAttribute('data-theme', t);
+          }
+        } catch(_) {}
+      })();
+    </script>
     
     <!-- Favicon and Icons -->
-    <link rel="icon" type="image/svg+xml" href="/assets/images/icons/favicon-32.svg">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/icons/favicon-32.svg" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/icons/favicon-32-dark.svg" media="(prefers-color-scheme: dark)">
     <link rel="icon" type="image/x-icon" href="/assets/images/icons/favicon.ico">
     <link rel="apple-touch-icon" href="/assets/images/icons/apple-touch-icon.png">
     <link rel="manifest" href="/assets/images/icons/site.webmanifest">
@@ -25,6 +39,7 @@
     </script>
     <script src="/assets/js/lightbox.js"></script>
     <script src="/assets/js/mobile-menu.js"></script>
+    <script src="/assets/js/theme-toggle.js"></script>
   </head>
   <body>
     {% include navigation.html %}

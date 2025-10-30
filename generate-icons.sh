@@ -71,6 +71,7 @@ echo "🎨 Generating Four-M Logo icons..."
 
 # Generate SVG icons in different sizes (vector-based)
 echo "📐 Creating SVG icons..."
+# Light set
 generate_svg 16 "assets/images/icons/favicon-16.svg"
 generate_svg 32 "assets/images/icons/favicon-32.svg"
 generate_svg 48 "assets/images/icons/favicon-48.svg"
@@ -81,6 +82,19 @@ generate_svg 180 "assets/images/icons/apple-touch-icon.svg"
 generate_svg 192 "assets/images/icons/android-chrome-192.svg"
 generate_svg 512 "assets/images/icons/android-chrome-512.svg"
 
+# Dark set
+BG_COLOR="#0f1115"
+FG_COLOR="white"
+generate_svg 16 "assets/images/icons/favicon-16-dark.svg"
+generate_svg 32 "assets/images/icons/favicon-32-dark.svg"
+generate_svg 48 "assets/images/icons/favicon-48-dark.svg"
+generate_svg 64 "assets/images/icons/favicon-64-dark.svg"
+generate_svg 96 "assets/images/icons/favicon-96-dark.svg"
+generate_svg 128 "assets/images/icons/favicon-128-dark.svg"
+generate_svg 180 "assets/images/icons/apple-touch-icon-dark.svg"
+generate_svg 192 "assets/images/icons/android-chrome-192-dark.svg"
+generate_svg 512 "assets/images/icons/android-chrome-512-dark.svg"
+
 # Check if ImageMagick is available for raster conversions
 if command -v convert &> /dev/null; then
     echo "🖼️  Converting to PNG formats..."
@@ -89,6 +103,9 @@ if command -v convert &> /dev/null; then
     convert "assets/images/icons/favicon-32.svg" "assets/images/icons/favicon-32.png"
     convert "assets/images/icons/favicon-48.svg" "assets/images/icons/favicon-48.png"
     convert "assets/images/icons/favicon-64.svg" "assets/images/icons/favicon-64.png"
+    convert "assets/images/icons/favicon-32-dark.svg" "assets/images/icons/favicon-32-dark.png"
+    convert "assets/images/icons/favicon-48-dark.svg" "assets/images/icons/favicon-48-dark.png"
+    convert "assets/images/icons/favicon-64-dark.svg" "assets/images/icons/favicon-64-dark.png"
     
     # Create ICO file from multiple PNG sizes
     echo "🎯 Creating ICO file..."
@@ -96,10 +113,13 @@ if command -v convert &> /dev/null; then
     
     # Apple touch icon
     convert "assets/images/icons/apple-touch-icon.svg" "assets/images/icons/apple-touch-icon.png"
+    convert "assets/images/icons/apple-touch-icon-dark.svg" "assets/images/icons/apple-touch-icon-dark.png"
     
     # Android icons
     convert "assets/images/icons/android-chrome-192.svg" "assets/images/icons/android-chrome-192.png"
     convert "assets/images/icons/android-chrome-512.svg" "assets/images/icons/android-chrome-512.png"
+    convert "assets/images/icons/android-chrome-192-dark.svg" "assets/images/icons/android-chrome-192-dark.png"
+    convert "assets/images/icons/android-chrome-512-dark.svg" "assets/images/icons/android-chrome-512-dark.png"
     
     echo "✅ PNG and ICO files generated!"
 else
