@@ -211,9 +211,9 @@ hr {
     &[data-tooltip]::after {
       content: attr(data-tooltip);
       position: absolute;
-      bottom: calc(100% + 6px);
-      left: 50%;
-      transform: translateX(-50%);
+      top: 50%;
+      right: calc(100% + 6px);
+      transform: translateY(-50%);
       background: var(--content-bg);
       color: var(--text-primary);
       border: 1px solid var(--border);
@@ -1067,9 +1067,9 @@ a {
   }
   
   .navigation .nav-actions {
-    position: static;
+    position: relative;
     right: auto;
-    top: auto;
+    top: -4px;
     z-index: auto;
   }
 
