@@ -6,3 +6,7 @@
   description: "Insights, takeaways, and reflections from conferences, workshops, and industry events. Capturing the key learnings and practical applications from the agile and product management community."
   slug: "conference-notes"
   color: "#4ECDC4"
+- name: "Talks & Recordings"
+  description: "Short updates that point to talks, meetups, and recordings where I share real-world experiments and lessons learned."
+  slug: "talks-and-recordings"
+  color: "#F7AA1C"
