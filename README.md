@@ -124,6 +124,10 @@ bundle exec jekyll serve --port 4001
 
 ## Creating a New Blog Post
 
+See `EDITORIAL_WORKFLOW.md` for the draft, publish, and auto-commit rules.
+
+### Published Posts
+
 1. Create a new markdown file in `_posts/` following the naming convention:
    ```
    YYYY-MM-DD-title-of-post.md
@@ -135,8 +139,9 @@ bundle exec jekyll serve --port 4001
    layout: post
    title: "Your Post Title"
    author: "Michael Voorhaen"
-   date: YYYY-MM-DD
-   draft: false
+   subtitle: "Optional subtitle"
+   series: "Optional series"
+   excerpt: "Optional excerpt"
    ---
    ```
 
@@ -149,8 +154,9 @@ bundle exec jekyll serve --port 4001
 layout: post
 title: "My New Blog Post"
 author: "Michael Voorhaen"
-date: 2025-01-26
-draft: false
+subtitle: "Optional subtitle"
+series: "Optional series"
+excerpt: "Optional excerpt"
 ---
 
 This is the first paragraph of my blog post.
@@ -175,6 +181,9 @@ Jekyll has built-in support for drafts. To create a draft article:
    layout: post
    title: "Work in Progress Article"
    author: "Michael Voorhaen"
+   subtitle: "Optional subtitle"
+   series: "Optional series"
+   excerpt: "Optional excerpt"
    ---
    ```
 
@@ -188,7 +197,9 @@ Jekyll has built-in support for drafts. To create a draft article:
 5. **To publish a draft:**
    - Move it from `_drafts/` to `_posts/`
    - Add the date prefix to the filename: `YYYY-MM-DD-title.md`
-   - Add a `date:` field to the front matter
+   - Remove any `TODO`, placeholder text, or unfinished sections
+   - Verify links, images, and includes
+   - Run a local build
    - Commit and push
 
 **Example:**
@@ -196,7 +207,7 @@ Jekyll has built-in support for drafts. To create a draft article:
 # Move draft to posts
 mv _drafts/my-article.md _posts/2025-01-26-my-article.md
 
-# Edit the file to add date in front matter
+# Verify the article is reader-ready
 # Then commit and push
 ```
 
@@ -211,30 +222,53 @@ mv _drafts/my-article.md _posts/2025-01-26-my-article.md
 
 2. Place your images in that folder
 
-3. Reference them in your post:
+3. Reference a single image in your post:
    ```markdown
-   ![Alt text](/assets/images/YYYY-MM-DD-post-title/image.png)
+   ![Descriptive alt text](/assets/images/YYYY-MM-DD-post-title/image.png)
    ```
+
+4. Use raw `<img>` only when you need layout control such as width, float, or `class="no-lightbox"`.
 
 ## Using Custom Includes
 
 ### Image Gallery
 
+This include is available, but it is not the normal pattern for article content in this repo.
+
 ```liquid
 {% include image-gallery.html 
    folder="assets/images/your-folder" 
-   images="image1.png,image2.png,image3.png" 
 %}
 ```
 
 ### Carousel
 
-```liquid
-{% include carousel.html 
-   folder="assets/images/your-folder" 
-   images="image1.png,image2.png" 
-%}
+Carousels in this repo are defined in front matter and then rendered where needed in the article body.
+
+Front matter example:
+
+```yaml
+carousels:
+  - images:
+      - image: /assets/images/your-post/image1.png
+        url: /assets/images/your-post/image1.png
+        title: "Optional visible caption"
+        alt: "What the image shows"
+        position: center
+      - image: /assets/images/your-post/image2.png
+        url: /assets/images/your-post/image2.png
+        title: "Optional visible caption"
+        alt: "What the image shows"
+        position: top
 ```
+
+Article body example:
+
+```liquid
+{% include carousel.html number="1" %}
+```
+
+Use a carousel when several images belong together in one section. Prefer a normal Markdown image when one image is enough.
 
 ## Configuration
 
@@ -294,4 +328,3 @@ This happens when using macOS system Ruby. **Solution:**
 - [Jekyll Documentation](https://jekyllrb.com/docs/)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
 - [Markdown Guide](https://www.markdownguide.org/)
-
