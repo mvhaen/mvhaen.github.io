@@ -58,14 +58,11 @@ I also liked how practical his closing advice was. One of his final slides, draw
 
 ### Pierre Masai and Jidoka
 
-Pierre Masai's keynote on Jidoka in Lean Engineering also belongs in this article somewhere.
+Pierre Masai's keynote on Jidōka in Lean Engineering was really amazing, and it also reminded me how little I really know about Lean. Or maybe more accurately: how much I still have to learn about it.
 
-At the very least, there is probably a link to make between AI, quality, learning, and the discipline of seeing problems early instead of automating our way around them. I just don't want to overstate that connection before I work through it more carefully.
+Learning more about Jidōka and Jikōtei kanketsu was especially valuable. Pierre used the language of "Built-in quality with ownership", and I also liked the translation "creating a complete process that I own". That is a strong idea. I think a big factor in this is making sure people know when they did a good job.
 
-TODO:
-- Revisit the link between Jidoka, visibility, and learning.
-- Explore whether this connects to the AI section through judgement and feedback loops.
-- Check whether this belongs near the Chris Matts section or closer to the architecture thread.
+What I found inspiring is the emphasis on building quality into the work itself. Pierre's slides make clear that Jikōtei kanketsu depends on good design, a good process, and a capable operator before work starts. That feels very different from the standardization tracks we sometimes go through, where the emphasis can drift toward extra controls and checklists instead of helping people build quality into the work itself.
 
 ### Backlogs and prioritization are still a mess
 
