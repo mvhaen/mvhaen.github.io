@@ -4,6 +4,10 @@ title: "FlowCon 2026: Highlights"
 subtitle: "Some themes I want to keep working through"
 author: "Michael Voorhaen"
 series: "Conference Notes"
+changelog:
+  - date: "2026-04-05"
+    changes:
+      - "Expanded the Reinertsen's Lottery note to capture the interactive poker-chip exercise and the energy in the room."
 carousels:
   - images:
       - image: /assets/images/2026-04-05-flowcon-2026-highlights/beffroi-exterior.jpg
@@ -129,7 +133,7 @@ This links nicely into Matt's talk — which was a lot of fun.
 
 {% include carousel.html number="2" %}
 
-He opened with [**Reinertsen's lottery**](https://mattphilip.wordpress.com/2023/12/01/reinertsens-lottery/) to make the case for smaller items over big up-front commitments. I like talks like this because they connect people not only to the work itself, but also to how we tackle the work. They help build a deeper shared understanding, and that does not need to come wrapped as dry theory.
+He opened with [**Reinertsen's lottery**](https://mattphilip.wordpress.com/2023/12/01/reinertsens-lottery/) to make the case for smaller items over big up-front commitments. People were playing with poker chips and buying lottery tickets, and there was so much energy in the room that I forgot to take pictures of that part. I like talks like this because they connect people not only to the work itself, but also to how we tackle the work. They help build a deeper shared understanding, and that does not need to come wrapped as dry theory.
 
 The talk grounded itself in Reinertsen's eight themes from *The Principles of Product Development Flow* — economics, queues, variability, batch size, WIP constraints, cadence, fast feedback, and decentralised control — with Matt zooming in on fast feedback. His [FlowCon slides](https://mattphilip.wordpress.com/2026/04/01/talk-reinertsens-lottery-and-other-product-management-lessons/) are on his blog, share-alike licensed.
 
