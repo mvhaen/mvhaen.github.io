@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blog Post Images"
+  short_description: "Place, name, optimize, and wire images for blog posts."
+  default_prompt: "Add supplied images to a blog post with correct naming, placement, optimization, and markdown or carousel wiring."
