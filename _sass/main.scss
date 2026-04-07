@@ -522,6 +522,21 @@ hr {
     line-height: 1.6;
   }
 
+  /* Keep inline code readable inside prose without collapsing line boxes. */
+  :not(pre) > code {
+    font-family: inherit;
+    font-size: 0.95em;
+    font-weight: 500;
+    line-height: inherit;
+    color: var(--text-primary);
+    background: rgba(139, 42, 155, 0.06);
+    border: 1px solid rgba(139, 42, 155, 0.12);
+    border-radius: 4px;
+    padding: 0.08em 0.3em;
+    white-space: normal;
+    vertical-align: baseline;
+  }
+
   &--details {
     display: flex;
     flex-direction: column;
